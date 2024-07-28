@@ -1,0 +1,38 @@
+header {
+    box-shadow: 0 0 5px #000;
+}
+
+.header-nav {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+header .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .header-nav {
+        display: none;
+    }
+}
+
+    .burger {
+        display: flex;
+        width: 24px;
+    }
+
+    .burger-line {
+        width: 100%;
+        border-radius: 5px;
+        height: 3px;
+        background: #0278ED;
+    }
