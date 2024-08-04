@@ -1,6 +1,6 @@
 #banner {
-    position: relative;                                                                             
-    padding: 50px 0;                                               
+    position: relative;
+    padding: 50px 0;
 }
 
 #banner .container {
@@ -9,7 +9,7 @@
 }
 
 #banner h1 {
-    font-size: 400;
+    font-weight: 400;
     font-size: 54px;
     color: #222222;
 }
@@ -20,7 +20,8 @@
     color: #222222;
 }
 
-@media  screen and (max-widh: 984px) {
+
+@media screen and (max-width: 904px) {
     #banner .container {
         flex-direction: column;
         gap: 100px;

@@ -1,3 +1,4 @@
+
 header {
     box-shadow: 0 0 5px #000;
 }
@@ -8,7 +9,7 @@ header {
     align-items: center;
 }
 
-header .conteiner {
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,11 +24,13 @@ header .conteiner {
     .header-nav {
         display: none;
     }
-}
 
     .burger {
         display: flex;
-        width: 24px;
+        width: 40px;
+        height: 40px;
+        flex-direction: column;
+        gap: 10px;
     }
 
     .burger-line {
@@ -36,3 +39,4 @@ header .conteiner {
         height: 3px;
         background: #0278ED;
     }
+}
